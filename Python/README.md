@@ -5,7 +5,7 @@ lang: zh-tw
 ---
 
 # 下載pycrypto、PyCryptodome and cryptography
-### Win10
+
 - install python
     - [python_download_link](https://www.python.org/downloads/)
     - 點擊紅色框框中的Download Python
@@ -17,12 +17,20 @@ lang: zh-tw
     - [pip_download_link](https://bootstrap.pypa.io/get-pip.py)
 - install pycrypto
 - install PyCryptodome
-    ```shell=
-    pip install PyCryptodome
-    ```
+    - Win10
+        ```shell=
+        pip install PyCryptodome
+        ```
+    - Google Colab
+        ```shell=
+        !pip install PyCryptodome
+        ```
 - install cryptography
-    ```shell=
-    pip install cryptography
-    ```
-
-    
+    - Win10
+        ```shell=
+        pip install cryptography
+        ```
+    - Google Colab
+        ```shell=
+        !pip install cryptography
+        ```
