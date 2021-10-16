@@ -25,4 +25,4 @@ d2 = int(gmpy2.invert(e, n2_phi))
 # d2 = mod_inverse(e, n2_phi)
 
 m = pow(pow(c, d2, n2), d1, n1)
-print(long_to_bytes(m))
+print(long_to_bytes(m).decode())

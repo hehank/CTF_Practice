@@ -49,5 +49,5 @@
 
 - output
     ```
-    
+    BreakALLCTF{twin_is_Soooooooooooo_Easy_in_RSaaaaaaaaaaaaaa}
     ```
