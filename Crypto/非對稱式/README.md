@@ -13,6 +13,7 @@ lang: zh-tw
 
     - 私鑰(應保密) => 通常用來解開密文(Ciphertext) => 明文(Plaintext)
         ![](https://i.imgur.com/YzfB8NQ.png)
+    
     - 也可以把公鑰跟私鑰的用法交換
 - 每個使用者都會有一對金鑰
 
