@@ -9,7 +9,7 @@ lang: zh-tw
 # 概述
 - 使用兩個不同但相關聯的密鑰，分別為公鑰(Public Key)和私鑰(Private Key)
     - 公鑰(可與他人分享) => 通常用來加密明文(Plaintext) => 密文(Ciphertext)
-    
+
         ![](https://i.imgur.com/wZT6lVZ.png)
 
     - 私鑰(應保密) => 通常用來解開密文(Ciphertext) => 明文(Plaintext)
