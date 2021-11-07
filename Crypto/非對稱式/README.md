@@ -11,9 +11,11 @@ lang: zh-tw
     - 公鑰(可與他人分享) => 通常用來加密明文(Plaintext) => 密文(Ciphertext)
         ![](https://i.imgur.com/wZT6lVZ.png)
 
+
     - 私鑰(應保密) => 通常用來解開密文(Ciphertext) => 明文(Plaintext)
         ![](https://i.imgur.com/YzfB8NQ.png)
     
+
     - 也可以把公鑰跟私鑰的用法交換
 - 每個使用者都會有一對金鑰
 
