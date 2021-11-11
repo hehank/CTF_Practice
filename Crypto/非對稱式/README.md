@@ -1,5 +1,5 @@
 ---
-title: 非對稱式加密
+title: 非對稱式加解密
 tags: Crypto
 lang: zh-tw
 ---
