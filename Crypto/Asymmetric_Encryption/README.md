@@ -30,7 +30,7 @@ lang: zh-tw
 - 需要更多計算資源
 
 # 種類
-- [RSA](https://github.com/hehank/CTF_Practice/tree/main/Crypto/%E9%9D%9E%E5%B0%8D%E7%A8%B1%E5%BC%8F/RSA)
+- [RSA](https://github.com/hehank/CTF_Practice/tree/main/Crypto/Asymmetric_Encryption/RSA)
 - [DSA (Digital Signature Algorithm)]()
 - [ECC (Elliptic Curves Cryptography)]()
 

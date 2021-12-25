@@ -1,11 +1,12 @@
+#! /usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import os
 from base64 import b64encode as b64e
 from base64 import b64decode as b64d
 from Crypto.Cipher import AES
 
-# ? Get flag.txt content
 flag = open('flag.txt', 'rb').read()
-# ? Creat a random key
 key = os.urandom(16)
 
 
