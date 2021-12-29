@@ -31,3 +31,17 @@ def xor(previous_block, block):
     for i, j in zip_block:
         xor_block.append(i ^ j)
     return bytes(xor_block)
+
+
+conn = pwn.remote('127.0.0.1', 1234)
+print(conn.recvuntil("Encrypt flag:").decode())
+ciphertext = b64d(conn.recvline().strip())
+cipherblock = chunk(ciphertext)
+
+
+def check(msg):
+    conn.sendline(b64e(msg))
+    if b"OK" in conn.recvline():
+        return True
+    else:
+        return False
