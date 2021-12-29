@@ -1,8 +1,9 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-a = "12345678"
-a_new = []
-for i in range(0, len(a), 3):
-    a_new.append([a[i:i+3]])
-print(a_new)
+a = b"123"
+b = b"456"
+new_zip = []
+for i, j in zip(a, b):
+    new_zip.append(i ^ j)
+print(new_zip)
