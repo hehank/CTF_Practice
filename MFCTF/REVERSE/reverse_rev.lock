@@ -1,9 +1,0 @@
-#Ghidra Lock File
-#Sat May 13 12:29:57 CST 2023
-OS\ Name=Linux
-OS\ Version=5.19.0-41-generic
-Username=hankhe
-Hostname=ubuntu
-<META>\ Supports\ File\ Channel\ Locking=Channel Lock
-OS\ Architecture=amd64
-Timestamp=5/13/23, 12\:29 PM
